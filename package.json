@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node server.mjs",
+    "dev": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
-    "preview": "node server.mjs dist",
+    "preview": "node scripts/serve.mjs dist",
     "predev": "node scripts/generate-locales.mjs"
   },
   "engines": {

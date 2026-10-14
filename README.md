@@ -26,6 +26,8 @@ npm run build
 
 Il build genera 12 pagine HTML complete in `dist/`, con immagini e font locali. Pubblicare il contenuto di `dist/` su un hosting statico. Configurazione dell’hosting: comando di build `npm run build`, cartella di output `dist`.
 
+Su Vercel, `vercel.json` imposta il preset “Other” e pubblica `dist/` come sito statico. Il server in `scripts/serve.mjs` serve solo per sviluppo e anteprima locale; non è una funzione da eseguire in produzione.
+
 ```sh
 npm run preview
 ```
